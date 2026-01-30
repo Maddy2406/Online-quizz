@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>General Knowledge (Preview)</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <div class="navbar">
+        <h3>Taking Quiz: General Knowledge</h3>
+        <h3 style="color: red;">Time Left: <span id="time">10:00</span></h3>
+    </div>
+
+    <div class="container">
+        <form id="quizForm" action="result.html" method="get">
+
+            <div class="card">
+                <h4>1. Capital of France?</h4>
+                <div class="quiz-option">
+                    <input type="radio" name="q_1" value="A"> London
+                </div>
+                <div class="quiz-option">
+                    <input type="radio" name="q_1" value="B"> Berlin
+                </div>
+                <div class="quiz-option">
+                    <input type="radio" name="q_1" value="C"> Paris
+                </div>
+                <div class="quiz-option">
+                    <input type="radio" name="q_1" value="D"> Madrid
+                </div>
+            </div>
+
+            <div class="card">
+                <h4>2. Value of Pi?</h4>
+                <div class="quiz-option">
+                    <input type="radio" name="q_2" value="A"> 3.14
+                </div>
+                <div class="quiz-option">
+                    <input type="radio" name="q_2" value="B"> 2.14
+                </div>
+                <div class="quiz-option">
+                    <input type="radio" name="q_2" value="C"> 4.14
+                </div>
+                <div class="quiz-option">
+                    <input type="radio" name="q_2" value="D"> 3.00
+                </div>
+            </div>
+
+            <button type="submit" onclick="return confirm('Are you sure you want to submit?');">Submit Quiz</button>
+        </form>
+    </div>
+</body>
+
+</html>
